@@ -19,6 +19,18 @@ This is a web tool for generating customizable buttons. Users can create a butto
 ## Contributing
 
 If you would like to contribute to the development of the button generator, please fork the repository and make a pull request with your changes.
+
+## Todo
+1. Add more Button styling options 
+2. Add more styling instructions 
+3. Optimize custimization controls
+4. Make styling prettier 
+5. Optimize for mobile 
+6. Testing 
+
+## Support 
+
+Questions/Concerns? Reach out to me at `nathanbrickett@gmail.com`
 ## Author
 
 Natha Brickett
