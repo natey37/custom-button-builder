@@ -1,46 +1,24 @@
-# Getting Started with Create React App
+# Button Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web tool for generating customizable buttons. Users can create a button, customize its appearance, and then export the code as JSON or copy and paste it into their own CSS file. There is also the option to import a button or generate a random button.
 
-## Available Scripts
+## Running the Tool Locally
 
-In the project directory, you can run:
+1. Clone the repository to your local machine by running the command `git clone https://github.com/your-username/button-generator.git`
+2. Navigate to the cloned repository by running the command `cd button-generator`
+3. Install the necessary dependencies by running the command `npm install`
+4. Run the development server by running the command `npm start`
+5. The button generator should now be running on `http://localhost:3000` in your web browser.
+## Using the Tool
 
-### `npm start`
+1. Click the "Create a Button" button to generate a new button.
+2. Use the customization options to change the appearance of the button to your liking.
+3. Once you are satisfied with the button's appearance, you have the option to export the button as JSON or copy and paste the CSS code for the button into your own stylesheet.
+4. You can also import a button by clicking the "Import a Button" button and pasting in the JSON or CSS code.
+5. You can also generate a random button by clicking the "Random Button" button.
+## Contributing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+If you would like to contribute to the development of the button generator, please fork the repository and make a pull request with your changes.
+## Author
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Natha Brickett
