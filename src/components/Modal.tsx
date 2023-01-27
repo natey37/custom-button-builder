@@ -109,28 +109,4 @@ const Modal: React.FC<Props>= (props) => {
         );
 };
 
-export default Modal
-
-
-// text-transform: This property is used to change the case of text. The options available are:
-
-// none: No change to the text case.
-// uppercase: Converts all characters in the text to uppercase.
-// lowercase: Converts all characters in the text to lowercase.
-// capitalize: Converts the first character of each word in the text to uppercase.
-// text-shadow: This property is used to add a shadow effect to text. The value can be set in the following format: x-offset y-offset blur-radius color. For example: 2px 2px 2px #000000
-
-// transform: This property allows you to apply 2D or 3D transformation to an element. The possible values are:
-
-// rotate(deg): Rotates an element by the specified degree.
-// skew(deg): Skews an element by the specified degree.
-// scale(x, y): Scales an element by the specified x and y values.
-// transition: This property allows you to specify the duration, delay, and easing of property changes on an element. The value can be set in the following format: property duration timing-function delay. For example: background-color 2s ease-in 1s
-
-// animation: This property allows you to specify the duration, delay, iteration count, and direction of animations on an element. The value can be set in the following format: name duration timing-function delay iteration-count direction. For example: pulse 2s ease-in-out 1s infinite alternate
-
-// background-image: This property allows you to set an image as the background of an element. The value can be a URL to an image or a gradiant. For example: url(image.jpg) or linear-gradient(to right, red, blue)
-
-// background-clip: This property allows you to specify the area of an element where the background image or color should be drawn. The options available are:
-
-// border-box: The background is painted
+export default Modal;
