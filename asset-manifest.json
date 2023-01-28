@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/custom-button-builder/static/css/main.bcb66c51.css",
+    "main.js": "/custom-button-builder/static/js/main.004cfffd.js",
+    "index.html": "/custom-button-builder/index.html",
+    "main.bcb66c51.css.map": "/custom-button-builder/static/css/main.bcb66c51.css.map",
+    "main.004cfffd.js.map": "/custom-button-builder/static/js/main.004cfffd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcb66c51.css",
+    "static/js/main.004cfffd.js"
+  ]
+}
