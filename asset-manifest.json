@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/custom-button-builder/static/css/main.bcb66c51.css",
-    "main.js": "/custom-button-builder/static/js/main.004cfffd.js",
+    "main.css": "/custom-button-builder/static/css/main.92caaaf0.css",
+    "main.js": "/custom-button-builder/static/js/main.f94293bc.js",
     "index.html": "/custom-button-builder/index.html",
-    "main.bcb66c51.css.map": "/custom-button-builder/static/css/main.bcb66c51.css.map",
-    "main.004cfffd.js.map": "/custom-button-builder/static/js/main.004cfffd.js.map"
+    "main.92caaaf0.css.map": "/custom-button-builder/static/css/main.92caaaf0.css.map",
+    "main.f94293bc.js.map": "/custom-button-builder/static/js/main.f94293bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcb66c51.css",
-    "static/js/main.004cfffd.js"
+    "static/css/main.92caaaf0.css",
+    "static/js/main.f94293bc.js"
   ]
 }
