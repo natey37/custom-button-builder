@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const initialOptions = {
   content: 'Customizable Button',
@@ -25,6 +25,17 @@ const initialOptions = {
   backgroundRepeat: 'no-repeat',
 };
 
+function generateCssFromOptions(options: Options): string {
+  return `button {
+${Object.entries(options).reduce((acc, [key, value]) => {
+  if (value !== 'none') {
+    let newKey = key.replace(/([A-Z])/g, (match) => `-${match.toLowerCase()}`);
+    return acc + `\t${newKey}: ${value};\n`;
+  }
+  return acc;
+}, '')}}`;
+}
+
 export default function useButtonOptions(): {
   cssCode: string;
   options: Options;
@@ -40,6 +51,11 @@ export default function useButtonOptions(): {
   const [cssCode, setCssCode] = useState('');
   const [options, setOptions] = useState<Options>(initialOptions);
 
+  useEffect(() => {
+    const css = generateCssFromOptions(options);
+    setCssCode(css);
+  }, [options]);
+
   const handleChange = (
     event: React.ChangeEvent<HTMLSelectElement | HTMLInputElement>,
   ) => {
@@ -54,17 +70,6 @@ export default function useButtonOptions(): {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     localStorage.setItem('buttonStyles', JSON.stringify(options));
-
-    const css = `button {
-${Object.entries(options).reduce((acc, [key, value]) => {
-  if (value !== 'none') {
-    let newKey = key.replace(/([A-Z])/g, (match) => `-${match.toLowerCase()}`);
-    return acc + `\t${newKey}: ${value};\n`;
-  }
-  return acc;
-}, '')}}`;
-
-    setCssCode(css);
   };
 
   const handleImport = (e: React.ChangeEvent<HTMLInputElement>) => {
